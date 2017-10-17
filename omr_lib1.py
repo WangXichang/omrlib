@@ -55,7 +55,7 @@ def test_one(fname:str, cardformat: tuple, cardgroup: dict, display=True):
 def card(no):
     filter_file: list = ['.jpg']
     f_path: str = ''
-    data_source: str = 'surface'  # '3-2'  #
+    data_source: str = 'surface'  # '3-2'  # 
     card_format: list = []
     group_dict = {}
     if no == 1:
